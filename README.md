@@ -1,5 +1,7 @@
 # LAB 36: Storefront
 
+## Commerce web app using React, Redux, and Material UI
+
 ## Deployment Test
 
 - Author: Davion Garcia
