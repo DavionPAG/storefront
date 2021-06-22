@@ -1,3 +1,3 @@
 # store-front
 
-Commerce storefront using React, Redux, API, and Material UI
+Commerce web app using React, Redux, and Material UI
