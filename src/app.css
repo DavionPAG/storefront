@@ -1,3 +1,7 @@
+* {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
 html {
   height: 100%;
 } 
@@ -9,7 +13,6 @@ body, #root {
 }
 
 footer {
-  font-family: 'Chakra Petch', sans-serif;
   margin-top: auto;
   text-align: center;
   background-color: lightgrey;
