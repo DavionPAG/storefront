@@ -26,17 +26,25 @@ function Details(props) {
 
   const classes = useStyles();
 
-  console.log(props.person)
+  function viewDetails(e) {
+    console.log(e)
+  }
+
+  function addToCart(e) {
+      console.log(e)
+  }
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} >
       <CardActionArea className={classes.keyboard}>
         <CardMedia
+        value={props.product}
+        onClick={viewDetails}
           className={classes.media}
           image={`https://source.unsplash.com/random?`}
           title="PlaceHolder"
         />
-        <CardContent>
+        <CardContent onClick={viewDetails}>
           <Typography gutterBottom variant="h5" component="h2">
             {props.product}
           </Typography>
@@ -46,7 +54,7 @@ function Details(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button onClick={addToCart} size="small" color="primary"  value={props.product}>
           Add To Cart
         </Button>
         <Button size="small" color="primary">
