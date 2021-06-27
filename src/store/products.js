@@ -1,7 +1,8 @@
 const baseState = {
-      currentProducts: [''],
+      currentProducts: [],
       games: [1,2,3,4,5],
       toys: [9,8,7,6,5],
+      cart: []
 }
 
 
